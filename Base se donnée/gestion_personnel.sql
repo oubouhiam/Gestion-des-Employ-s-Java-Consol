@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : ven. 25 déc. 2020 à 17:45
+-- Généré le : ven. 25 déc. 2020 à 18:18
 -- Version du serveur :  10.4.14-MariaDB
 -- Version de PHP : 7.4.10
 
@@ -51,14 +51,6 @@ CREATE TABLE `production` (
   `nomber_Pr` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Déchargement des données de la table `production`
---
-
-INSERT INTO `production` (`id`, `nom`, `prenom`, `age`, `date`, `nomber_Pr`) VALUES
-(1, 'fdf', 'dd', 32, '23', 0),
-(5, 'fe', 'dfe', 22, '22', 1000);
-
 -- --------------------------------------------------------
 
 --
@@ -74,13 +66,6 @@ CREATE TABLE `represention` (
   `date` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Déchargement des données de la table `represention`
---
-
-INSERT INTO `represention` (`id`, `nom`, `prenom`, `chiffreAffaire`, `age`, `date`) VALUES
-(1, 'ff', 'fe', '3234.0', '33', '133');
-
 -- --------------------------------------------------------
 
 --
@@ -95,15 +80,6 @@ CREATE TABLE `vendeurs` (
   `date` int(255) NOT NULL,
   `chiffreAffaire` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Déchargement des données de la table `vendeurs`
---
-
-INSERT INTO `vendeurs` (`id`, `nom`, `prenom`, `age`, `date`, `chiffreAffaire`) VALUES
-(2, 'isali', 'kaddi', 12, 12, '5000.0'),
-(3, 'gfg', 'gfg', 232, 343, '1000.0'),
-(4, 'GG', 'GDFG', 33, 2020, '3000.0');
 
 --
 -- Index pour les tables déchargées
